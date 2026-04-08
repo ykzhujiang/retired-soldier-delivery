@@ -13,102 +13,73 @@ h1{font-size:24px;text-align:center;color:#ffd700;margin:20px 0 8px;text-shadow:
 .meta-row{display:flex;justify-content:space-between;margin:4px 0;font-size:14px}
 .meta-label{color:#888}.meta-value{color:#ccc}
 h2{font-size:20px;color:#4fc3f7;margin:28px 0 16px;border-left:4px solid #4fc3f7;padding-left:12px}
-h3{font-size:16px;color:#aaa;margin:20px 0 12px}
-.character,.scene{background:#151520;border-radius:12px;padding:16px;margin-bottom:16px;border:1px solid #252535}
-.asset-img{width:100%;border-radius:8px;margin-top:12px}
-.char-name{font-size:18px;font-weight:bold;color:#ffd700;margin-bottom:8px}
-.char-desc{font-size:14px;color:#bbb;line-height:1.6}
-.segment{background:#0f1a2e;border-radius:12px;padding:20px 16px;margin:20px 0;border:1px solid #1a3050}
-.segment-title{font-size:18px;color:#4fc3f7;font-weight:bold;margin-bottom:12px}
-.physical-state{background:#0a1020;border-radius:8px;padding:12px;margin-bottom:16px;font-size:13px;color:#8899aa;border-left:3px solid #2a4a6a}
-.part{margin:12px 0;padding:12px;background:#111825;border-radius:8px;font-size:15px}
-.part-num{color:#ffd700;font-weight:bold;margin-right:6px}
-.dialogue{color:#7fff7f}
-.camera{margin-top:16px;padding:12px;background:#1a1020;border-radius:8px;font-size:13px;color:#b388ff;border-left:3px solid #7c4dff}
-.cam-label{font-weight:bold}
-.ref-images{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
-.ref-images img{width:100%;border-radius:6px;aspect-ratio:9/16;object-fit:cover}
-.ref-images.scenes img{aspect-ratio:16/9}
-.badge{display:inline-block;background:#1a3a1a;color:#4caf50;padding:2px 8px;border-radius:4px;font-size:12px;margin-left:8px}
-footer{text-align:center;color:#555;font-size:12px;margin-top:40px;padding:20px 0}
+.part{background:#151520;border-radius:12px;padding:16px;margin-bottom:16px;border:1px solid #252535;transition:transform 0.2s}
+.part:hover{transform:translateX(4px)}
+.part-header{font-size:18px;font-weight:bold;color:#ffd700;margin-bottom:8px}
+.part-time{font-size:12px;color:#666;font-weight:normal}
+.part-action{font-size:15px;color:#ccc;line-height:1.7;margin-bottom:8px}
+.dialogue{background:#1a1a2e;border-left:3px solid #e74c3c;padding:8px 12px;margin:8px 0;border-radius:0 8px 8px 0;font-size:15px}
+.speaker{color:#ffd700;font-weight:bold}
+.camera{background:#0d1117;border:1px solid #30363d;border-radius:12px;padding:16px;margin-top:24px;font-size:14px;color:#8b949e}
+.camera-label{color:#4fc3f7;font-weight:bold;margin-bottom:8px}
+.verdict{text-align:center;margin:30px 0;padding:16px;background:#0d2818;border:1px solid #1a5c2e;border-radius:12px;color:#3fb950;font-size:18px}
+.links{text-align:center;margin:20px 0}
+.links a{color:#4fc3f7;text-decoration:none;margin:0 8px}
 </style>
 </head>
 <body>
 <h1>🎬 退役兵王送外卖</h1>
-<p class="subtitle">EXP-1079 | V6.1 Seedance 短剧剧本 | Phase 1 预览</p>
+<div class="subtitle">EXP-1079 | V6.1 短剧剧本 | 15秒单Segment</div>
 
 <div class="meta">
-<div class="meta-row"><span class="meta-label">风格</span><span class="meta-value">写实电影感</span></div>
-<div class="meta-row"><span class="meta-label">时长</span><span class="meta-value">15秒 × 1 Segment</span></div>
-<div class="meta-row"><span class="meta-label">Parts</span><span class="meta-value">6</span></div>
-<div class="meta-row"><span class="meta-label">比例</span><span class="meta-value">9:16 竖屏</span></div>
-<div class="meta-row"><span class="meta-label">设定</span><span class="meta-value">中国深圳·现代都市</span></div>
-<div class="meta-row"><span class="meta-label">Verdict</span><span class="meta-value">✅ PASS<span class="badge">character PASS</span><span class="badge">storyboard PASS</span></span></div>
+<div class="meta-row"><span class="meta-label">风格</span><span class="meta-value">电影级都市写实</span></div>
+<div class="meta-row"><span class="meta-label">场景</span><span class="meta-value">中国·当代·深圳·写字楼</span></div>
+<div class="meta-row"><span class="meta-label">时长</span><span class="meta-value">≤15秒 | 6 Parts</span></div>
+<div class="meta-row"><span class="meta-label">台词密度</span><span class="meta-value">4/6 Parts = 67%+ ✅</span></div>
 </div>
 
-<h2>👤 角色</h2>
+<h2>📖 Segment 01 — 分镜</h2>
 
-<div class="character">
-<div class="char-name">林北（主角）</div>
-<div class="char-desc">30岁退役特种兵，寸头黑发，皮肤黝黑偏古铜色，身材精壮，眼神锐利沉稳。穿黄色外卖骑手制服，胸口隐约露出旧军牌。</div>
-<img class="asset-img" src="assets/林北.png" alt="林北">
+<div class="part">
+  <div class="part-header">Part 1 <span class="part-time">~2.5s</span></div>
+  <div class="part-action">[林北]右手端着外卖保温箱跨进电梯，三个西装男身体同时向电梯后壁靠拢，肩膀收紧，目光避开[林北]。</div>
+  <div class="dialogue"><span class="speaker">[林北]</span> "三十二楼，麻烦让一下。"</div>
+</div>
+<div class="part">
+  <div class="part-header">Part 2 <span class="part-time">~2.5s</span></div>
+  <div class="part-action">[西装男A]夸张地皱起眉头，右手捏住鼻子，头偏向同事方向挤了个嫌弃的眼色，左手咖啡杯微微上扬。</div>
+  <div class="dialogue"><span class="speaker">[西装男A]</span> "这味道……外卖的？"</div>
+</div>
+<div class="part">
+  <div class="part-header">Part 3 <span class="part-time">~2.5s</span></div>
+  <div class="part-action">[林北]面无表情地盯着电梯门上方的楼层数字从18跳到25，嘴角纹丝不动，右手五指稳稳扣住保温箱边缘，手背青筋微凸。</div>
+  
+</div>
+<div class="part">
+  <div class="part-header">Part 4 <span class="part-time">~2.5s</span></div>
+  <div class="part-action">电梯门滑开，[林北]大步走出电梯，沿走廊走向尽头房门，抬起左手敲了三下门。</div>
+  <div class="dialogue"><span class="speaker">[林北]</span> "您好，外卖到了。"</div>
+</div>
+<div class="part">
+  <div class="part-header">Part 5 <span class="part-time">~2.5s</span></div>
+  <div class="part-action">门缓缓向内打开，[老人]站在门框内，腰板笔直，目光从外卖箱下移到[林北]胸口露出的旧军牌上，瞳孔骤然收缩，眼神从疑惑变为肃穆。[老人]啪地并拢双腿立正，右手抬至太阳穴敬了一个标准军礼。走廊尽头三个西装男刚走出电梯，全部僵在原地。</div>
+  <div class="dialogue"><span class="speaker">[老人]</span> "这军牌……你是哪个部队的？"</div>
+</div>
+<div class="part">
+  <div class="part-header">Part 6 <span class="part-time">~2.5s</span></div>
+  <div class="part-action">[林北]微微低头，右手将外卖箱递到[老人]手中，左手轻轻碰了碰胸口军牌，嘴角缓缓上扬。[西装男A]手中星巴克纸杯倾斜，咖啡沿杯沿滴落。画面定格在[林北]侧脸微笑。</div>
+  <div class="dialogue"><span class="speaker">[林北]</span> "老首长，外卖到了。"</div>
 </div>
 
-<div class="character">
-<div class="char-name">老人</div>
-<div class="char-desc">70岁退休军官，白发梳得一丝不苟，腰板挺直。军绿色休闲夹克配白衬衫，面容威严但眼角温和。</div>
-<img class="asset-img" src="assets/老人.png" alt="老人">
+<div class="camera">
+<div class="camera-label">🎥 运镜</div>
+中景开场拍电梯内全貌→推进中景西装男A捏鼻→切特写林北面无表情侧脸→跟拍林北背影出电梯走向房门→中景老人开门目光下移→全景老人敬礼+林北递餐→特写咖啡洒落→侧面特写林北嘴角微笑定格
 </div>
 
-<div class="character">
-<div class="char-name">西装男A</div>
-<div class="char-desc">30岁投行精英，发胶锃亮偏分，深蓝西装红领带，手持星巴克。表情傲慢。</div>
-<img class="asset-img" src="assets/西装男A.png" alt="西装男A">
+<div class="verdict">✅ Storyboard Verdict: PASS (0 issues)</div>
+
+<div class="links">
+<a href="https://github.com/ykzhujiang/retired-soldier-delivery/blob/main/production/storyboard/ep01.md">📄 剧本原文</a>
 </div>
 
-<h2>🏙️ 场景</h2>
-
-<div class="scene">
-<div class="char-name">电梯内</div>
-<div class="char-desc">现代商务写字楼不锈钢电梯，空间狭小，冷白LED灯光，蓝光楼层显示屏。</div>
-<img class="asset-img" src="assets/电梯内.png" alt="电梯内">
-</div>
-
-<div class="scene">
-<div class="char-name">走廊门口</div>
-<div class="char-desc">高层走廊，米白墙壁，深色木质房门，落地窗透入深圳城市夜景。</div>
-<img class="asset-img" src="assets/走廊门口.png" alt="走廊门口">
-</div>
-
-<h2>🎬 分镜 — Segment 01（≤15s）</h2>
-
-<div class="segment">
-<div class="segment-title">Segment 01 | 电梯内 → 走廊门口</div>
-
-<div class="physical-state">
-<strong>Physical State:</strong><br>
-<strong>[林北]</strong>：画面左侧，站立，右手端外卖保温箱，左手自然下垂挂头盔，目光平视前方电梯门<br>
-<strong>[西装男A]</strong>：画面右侧偏后，站立，左手持咖啡杯齐胸高，右手插裤袋，目光斜视林北
-</div>
-
-<div class="part"><span class="part-num">[Part 1]</span> [林北]端着外卖保温箱走进电梯，三个西装男下意识退后半步让出空间。</div>
-
-<div class="part"><span class="part-num">[Part 2]</span> [西装男A]夸张地皱起眉头用手背捏住鼻子，侧头对同事挤了个嫌弃的眼色。</div>
-
-<div class="part"><span class="part-num">[Part 3]</span> [林北]面无表情地盯着电梯楼层数字跳动，嘴角纹丝不动，右手稳稳端着保温箱。</div>
-
-<div class="part"><span class="part-num">[Part 4]</span> 电梯门打开，[林北]走出电梯敲响房门，[老人]开门后目光落在林北胸口露出的军牌上，眼神从疑惑骤然变为肃穆。</div>
-
-<div class="part"><span class="part-num">[Part 5]</span> [老人]啪地并拢双腿立正站直，右手抬起敬了一个标准军礼。[林北]微微低头点头回礼，走廊尽头三个西装男刚走出电梯，全部呆住。</div>
-
-<div class="part"><span class="part-num">[Part 6]</span> [西装男A]手中星巴克纸杯倾斜，咖啡缓缓洒出。[林北]转过身侧脸，嘴角微微上扬露出一丝笑意。画面定格。</div>
-
-<div class="camera"><span class="cam-label">运镜：</span>中景开场拍电梯内全貌→推进特写西装男A嫌弃表情→切林北面无表情侧脸→跟拍林北背影出电梯→中景老人开门→全景老人敬礼林北回礼→特写咖啡洒出→侧面特写林北嘴角微笑定格，正常速度</div>
-</div>
-
-<footer>
-EXP-1079 | Trinity V3 Operator | CYCLE-operator-809<br>
-GitHub: <a href="https://github.com/ykzhujiang/retired-soldier-delivery" style="color:#4fc3f7">ykzhujiang/retired-soldier-delivery</a>
-</footer>
-</body>
-</html>
+</body></html>
