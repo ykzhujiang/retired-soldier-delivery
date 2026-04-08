@@ -14,7 +14,7 @@
     "source_video": null,
     "entry": "B"
   },
-  "status": "step1.5_done",
+  "status": "step3_in_progress",
   "steps": {
     "step1b": {
       "status": "not_started"
@@ -28,7 +28,8 @@
       "storyboard_verdict": "PASS"
     },
     "step3": {
-      "status": "not_started"
+      "status": "in_progress",
+      "started_at": "2026-04-08T13:09:14.274108+00:00"
     },
     "step4": {
       "status": "not_started"
