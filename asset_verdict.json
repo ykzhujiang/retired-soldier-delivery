@@ -1,0 +1,37 @@
+{
+  "verdict": "FAIL",
+  "style": "realistic",
+  "assets": [
+    {
+      "label": "林北",
+      "type": "character",
+      "verdict": "ERROR",
+      "error": "Check returned no result"
+    },
+    {
+      "label": "老人",
+      "type": "character",
+      "verdict": "ERROR",
+      "error": "Check returned no result"
+    },
+    {
+      "label": "西装男A",
+      "type": "character",
+      "verdict": "ERROR",
+      "error": "Check returned no result"
+    },
+    {
+      "label": "电梯内",
+      "type": "scene",
+      "verdict": "ERROR",
+      "error": "Check returned no result"
+    },
+    {
+      "label": "走廊门口",
+      "type": "scene",
+      "verdict": "ERROR",
+      "error": "Check returned no result"
+    }
+  ],
+  "summary": "0/5 assets passed"
+}
