@@ -1,0 +1,66 @@
+{
+  "checked_at": "2026-04-08T13:09:03.420720+00:00",
+  "verdict": "PASS",
+  "storyboard": "storyboard.md",
+  "setting": "中国·当代·深圳·写字楼",
+  "characters": {
+    "林北": {
+      "completeness": {
+        "pass": true,
+        "missing": []
+      },
+      "image_friendliness": {
+        "pass": true,
+        "vague_terms": []
+      },
+      "setting_consistency": {
+        "pass": true,
+        "note": "Character has East Asian features consistent with setting"
+      },
+      "differentiation": {
+        "pass": true,
+        "similar_to": null
+      }
+    },
+    "老人": {
+      "completeness": {
+        "pass": true,
+        "missing": []
+      },
+      "image_friendliness": {
+        "pass": true,
+        "vague_terms": []
+      },
+      "setting_consistency": {
+        "pass": false,
+        "note": "Setting '中国·当代·深圳·写字楼' implies East Asian context but character lacks explicit East Asian feature keywords. Consider adding specific features (e.g. hair color, skin tone) consistent with the setting."
+      },
+      "differentiation": {
+        "pass": true,
+        "similar_to": null
+      }
+    },
+    "西装男A": {
+      "completeness": {
+        "pass": true,
+        "missing": []
+      },
+      "image_friendliness": {
+        "pass": true,
+        "vague_terms": []
+      },
+      "setting_consistency": {
+        "pass": true,
+        "note": "Character has East Asian features consistent with setting"
+      },
+      "differentiation": {
+        "pass": true,
+        "similar_to": null
+      }
+    }
+  },
+  "hard_fails": 0,
+  "soft_warnings": 1,
+  "auto_fixed": true,
+  "fix_rounds": 1
+}
