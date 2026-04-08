@@ -14,7 +14,7 @@
     "source_video": null,
     "entry": "B"
   },
-  "status": "step3_in_progress",
+  "status": "step4_done",
   "steps": {
     "step1b": {
       "status": "not_started"
@@ -29,10 +29,23 @@
     },
     "step3": {
       "status": "in_progress",
-      "started_at": "2026-04-08T13:09:14.274108+00:00"
+      "started_at": "2026-04-08T21:43:51.999251+00:00"
     },
     "step4": {
-      "status": "not_started"
+      "status": "done",
+      "segments": {
+        "Segment 01": {
+          "task_id": "cgt-20260409061107-9z5l2",
+          "status": "done",
+          "video": "production/output/1/Segment 01.mp4",
+          "check_verdict": "BEST_SELECTED",
+          "attempts": 3,
+          "_qc_retries": 1,
+          "retry_task_id": "cgt-20260409062001-45vc8"
+        }
+      },
+      "started_at": "2026-04-08T22:11:09.579437+00:00",
+      "completed_at": "2026-04-08T22:38:56.313425+00:00"
     },
     "step6": {
       "status": "not_started"
